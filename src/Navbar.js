@@ -33,7 +33,7 @@ const [showdiv, handlediv] = useState(false);
 				<br />
 				<a href="https://www.themoviedb.org/">The Movie DB</a>
 				<br />
-				<a href="">Github Repo</a>
+				<a href="https://github.com/AkshataGirkar/netflix-app">Github Repo</a>
 			</div>}
 		</header>
 	)
