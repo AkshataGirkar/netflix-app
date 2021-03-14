@@ -1,0 +1,47 @@
+.nav{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	z-index: 1;
+	height: 30px;
+	padding: 20px;
+	transition-timing-function: ease-in;
+	transition: all .5s;
+}
+.netflix_logo{
+	position: fixed;
+	width: 120px;
+	left: 15px;
+	object-fit: contain;
+}
+.menu_logo{
+	position: fixed;
+	width: 30px;
+	right: 20px;
+	object-fit: contain;
+	cursor: pointer;
+}
+.nav_black{
+	background-color: #000;
+}
+#api_div{
+	position: absolute;
+	right: 60px;
+	top: 55px;
+	background-color: #eee;
+	color: #fff;
+	transition-timing-function: fade-in;
+	padding: 20px;
+	font-size: 16px;
+	line-height: 2;
+}
+#api_div a{
+	text-decoration: none;
+	font-weight: 500;
+}
+#api_div:hover{
+	background-color: #aaa;
+	transition: all 0.5s;
+}

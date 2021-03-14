@@ -1,0 +1,136 @@
+.banner{
+	color: #fff;
+	object-fit: cover;
+	height: 448px;
+}
+.banner_contents{
+	margin-left: 30px;
+	padding-top: 140px;
+	height: 190px;
+}
+.banner_title{
+	font-size: 3rem;
+	font-weight: 800;
+	padding-bottom: 0.3rem;
+
+}
+.banner_btns{
+	cursor: pointer;
+	outline: none;
+	border: none;
+	/*background-color: rgba(51, 51, 51, 0.7);*/
+	color: #fff;
+	padding: 0.7rem 2rem;
+	margin-right: 2rem;
+	margin-top: 1rem;
+	border-radius: 5px;
+	font-weight: 800;
+	font-size: 14px;
+	background: linear-gradient(to right, #fff 50%, rgba(51, 51, 51, 0.7) 50%);
+	background-size: 200% 100%;
+	background-position: bottom right;
+	transition: all .7s ease-out;
+}
+.banner_btns:hover{
+  	background-position: bottom left;
+  	color: #000;
+}
+.banner_desc{
+	width: 45rem;
+	font-size: 1rem;
+	line-height: 1.3;
+	padding-top: 1rem;
+	max-width: 360px;
+	height: 80px; 
+}
+.banner--fadebottom{
+	height: 7.5rem;
+	background-image: linear-gradient(180deg, transparent, rgba(37, 37,37,0.67), #111);
+}
+
+
+@media all and (width > 430px) and (width < 500px){
+	.banner_title{
+		font-size: 2rem;
+	}
+	.banner_contents{
+		padding-top: 115px;
+	}
+	.banner--fadebottom{
+		height: 9.2rem;
+	}
+	.banner_desc{
+		width: 35rem;
+		max-width: 340px;
+	}
+}
+
+@media all and (width > 390px) and (width <= 430px){
+	.banner_title{
+		font-size: 2rem;
+	}
+	.banner_contents{
+		padding-top: 130px;
+	}
+	.banner--fadebottom{
+		height: 8.5rem;
+	}
+	.banner_desc{
+		width: 35rem;
+		max-width: 340px;
+	}
+}
+
+@media all and (max-width:390px){
+	.banner_title{
+		font-size: 2rem;
+	}
+	.banner_contents{
+		padding-top: 130px;
+	}
+	.banner--fadebottom{
+		height: 8.5rem;
+	}
+	.banner_desc{
+		max-width: 310px;
+		font-size: 0.9rem;
+	}
+}
+
+@media all and (max-width:340px){
+	.banner_title{
+		font-size: 1.8rem;
+	}
+	.banner_contents{
+		padding-top: 110px;
+	}
+	.banner--fadebottom{
+		height: 9.5rem;
+	}
+	.banner_desc{
+		max-width: 300px;
+	}
+}
+@media all and (max-width:340px){
+	.banner_desc{
+		max-width: 240px;
+	}
+}
+@media all and (max-width:330px){
+	.banner_btns{
+		padding: 0.7rem 1.5rem;
+		margin-right: 1.2rem;
+		margin-top: 0.6rem;
+		font-size: 12px;
+	}
+}
+@media all and (max-width:330px){
+	.banner_btns{
+		padding: 0.7rem 1rem;
+		margin-top: 0.4rem;
+	}
+	.banner_desc{
+		max-width: 220px;
+	}
+}
+
