@@ -6,12 +6,12 @@ The project [netflix-app](https://github.com/AkshataGirkar/netflix-app/) is the 
 [axios](https://www.npmjs.com/package/axios) : To make http request to external resource. Cmd `npm i axios`\
 [react-youtube package](https://www.npmjs.com/package/react-youtube) : To view trailers from youtube. Cmd `npm i install react-youtube`
 ### API KEY 
-Created an account at [Tiingo](https://api.tiingo.com) to get API key. 
+Create an account at [Tiingo](https://api.tiingo.com) to get API key. 
 ### Database of movies and TV shows 
-Explored different categories of movies from [TMDB(The Movie DATABASE)](https://www.themoviedb.org/).
+Explore different categories of movies from [TMDB(The Movie DATABASE)](https://www.themoviedb.org/).
 ### Website Deployment
 Install firebase tools `npm install -g firebase tools`\
-Created an account on firebase and logged in\
-Deployed project from command prompt using `firebase login`, `npm build` and `firebase deploy`.
+Create an account on firebase and logged in\
+Deploy project from command prompt using `firebase login`, `npm build` and `firebase deploy`.
 
 **HAVE FUN of Netflix trailers at https://neflix-clone-9d798.web.app/**
