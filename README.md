@@ -4,7 +4,8 @@
 The project [netflix-app](https://github.com/AkshataGirkar/netflix-app/) is the frontend of Netflix created using [REACT JS Framework](https://reactjs.org/).
 ### Package used
 [axios](https://www.npmjs.com/package/axios) : To make http request to external resource. Cmd `npm i axios`\
-[react-youtube package](https://www.npmjs.com/package/react-youtube) : To view trailers from youtube. Cmd `npm i install react-youtube`
+[react-youtube package](https://www.npmjs.com/package/react-youtube) : To view trailers from youtube. Cmd `npm i install react-youtube`\
+movie-trailer `npm i movie-trailer`
 ### API KEY 
 Create an account at [Tiingo](https://api.tiingo.com) to get API key. 
 ### Database of movies and TV shows 
